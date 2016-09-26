@@ -1,4 +1,3 @@
 #!/bin/python
 Import("env")
 tmp = env.Library(Glob("*.cpp"))
-env.Install("#bin/lib27",tmp)
